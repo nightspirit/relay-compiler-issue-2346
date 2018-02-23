@@ -1,0 +1,9 @@
+{
+  "presets": ["react", "react-app"],
+  "plugins": [
+    "relay",
+    ["module-resolver", {
+      "root": ["./src"]
+    }]
+  ]
+}
